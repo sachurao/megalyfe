@@ -3,14 +3,6 @@ layout: landing-page
 title: Megalyfe Fitness & Nutrition
 ---
 
-<div class="trial-class">
-  <p>We, at MegaLyfe, believe that the key to overall good health is simple -- it is by making good health work for you.</p>
-
-  <p>There is a prevalent image in the media that fitness is too hard to achieve.  This is very unfortunate.  We think, by tailoring our health regimen to our life needs, we can make fitness easy and fun.  We go further than showing you the right way to do a few exercises.  We sit down with you and learn more about YOU.  Your life habits, your food habits, your routines and your guilty pleasures.  We devise a strategy based on exercise and good nutrition.  We incorporate this into your life to make it work.  We circle back to see what works and what doesn't, and change as necessary.</p>
-
-  <p>Sounds simple, doesn't it?  It really is.  We have a simple mantra:  we believe you can go further than you think.  Contact us to find out how.</p>
-
-  <p ><i class="font-small">TODO:  Some copywriting like this is required.  Your home page should be about your services and what people get from MegaLyfe and your differentiation.  Tell them why they need to avail your services now.</i></p>
-</div>
+Put image here
 
 
