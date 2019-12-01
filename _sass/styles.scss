@@ -1,0 +1,29 @@
+@import "0-base/0-base-dir";
+@import "1-layout/1-layout-dir";
+@import "2-components/2-components-dir";
+@import "3-controls/3-controls-dir";
+
+
+.trial-class {
+   font-size: 1rem;
+   //font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font-small {
+  font-size: 0.875rem;
+}
+
+.debug-1 {
+  border: red;
+  border-style: solid;
+}
+
+.debug-2 {
+  border: blue;
+  border-style: solid;
+}
+
+.debug-3 {
+  border: greenyellow;
+  border-style: solid;
+}

@@ -1,0 +1,14 @@
+/* This is where I will define base styles for all standard html elements */
+@import "vars";
+*{
+  font-size:$font-size-default;
+}
+
+body {
+  // font-size: 1rem;
+  // font-family: $font-family;
+}
+
+p {
+  // font-size: 1rem;
+}
