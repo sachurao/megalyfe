@@ -1,10 +1,13 @@
 /* This is where I will define all the default variables like fonts, colors, etc. */
 $font-size-default: 16px !default;
-$font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !default;
+$font-family-serif: 'Sanchez', 'BioRhyme', 'Arvo', 'Roboto Mono', 'Zilla Slab', serif !default;
+$font-family-sans-serif: 'Muli', 'Nunito', 'Muli', 'Exo 2', 'Rubik', 'Noto Sans', 'Open Sans', Calibri, 'Trebuchet MS', sans-serif !default;
+$font-family: $font-family-serif;
+$font-family-highlight: $font-family-sans-serif;
 
 $base-color-primary: #fff59d;
 $base-color-primary-dark: #fdd835; //#cbc26d looks too yucky!
-$base-color-primary-light: #fffde7; // #ffffcf;
+$base-color-primary-light: #ffecb3;
 $base-color-secondary: #a5d6a7;
 $base-color-secondary-light: #d7ffd9;
 $base-color-secondary-dark: #75a478;
