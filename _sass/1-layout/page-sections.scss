@@ -1,7 +1,8 @@
 @import '../0-base/vars';
 .section-row-bg {
- background-color: transparentize($base-color-primary-light, 0.9);
+//  background-color: transparentize($base-color-primary-light, 0.9);
 }
 .section-row-alt-bg {
-  background-color: transparentize($base-color-secondary-light, 0.6);
+  // background-color: transparentize($base-color-secondary-light, 0.6);
+  background-color: #f7f7f7;
 }
