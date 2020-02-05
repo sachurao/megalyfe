@@ -14,16 +14,13 @@
 }
 
 .debug-1 {
-  border: red;
-  border-style: solid;
+  @include incl-debug-1;
 }
 
 .debug-2 {
-  border: blue;
-  border-style: solid;
+  @include incl-debug-2;
 }
 
 .debug-3 {
-  border: greenyellow;
-  border-style: solid;
+  @include incl-debug-3
 }

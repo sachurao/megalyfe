@@ -1,0 +1,14 @@
+@mixin incl-debug-1 {
+  border: red;
+  border-style: solid;
+}
+
+@mixin incl-debug-2 {
+  border: blue;
+  border-style: solid;
+}
+
+@mixin incl-debug-3 {
+  border: greenyellow;
+  border-style: solid;
+}

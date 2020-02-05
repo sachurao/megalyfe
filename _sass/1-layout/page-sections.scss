@@ -3,5 +3,5 @@
  background-color: transparentize($base-color-primary-light, 0.9);
 }
 .section-row-alt-bg {
-  background-color: $base-color-secondary-light;
+  background-color: transparentize($base-color-secondary-light, 0.6);
 }
