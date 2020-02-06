@@ -5,4 +5,10 @@
 https://github.com/twbs/bootstrap/blob/master/scss/_variables.scss
 */
 
+@import "0-base/0-base-dir";
+
 // $font-size-base: $font-size-default;
+$enable-gradients: true;
+$enable-shadows: true;
+$light: $base-color-primary-light;
+$navbar-light-active-color: darken($base-color-secondary, 25%);
