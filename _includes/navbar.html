@@ -12,7 +12,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item {% if include.active-page == 'home' %}active{% endif %}">
           <a class="nav-link" href="{{site.url}}">Home </a>
         </li>
         <li class="nav-item">
@@ -24,7 +24,7 @@
           <li class="nav-item">
               <a class="nav-link disabled" href="gallery.html">Gallery</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item {% if include.active-page == 'about' %}active{% endif %}">
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
