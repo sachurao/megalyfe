@@ -1,6 +1,7 @@
 ---
-layout: about
+layout: text-only-template
 title: About Megalyfe
+menu-link: about
 ---
 
 <div class="content-text-standard">

@@ -1,9 +1,9 @@
 /* This is where I will define all the default variables like fonts, colors, etc. */
 $font-size-default: 16px !default;
 $font-family-serif: 'Sanchez', 'BioRhyme', 'Arvo', 'Roboto Mono', 'Zilla Slab', serif !default;
-$font-family-sans-serif: 'Muli', 'Nunito', 'Exo 2', 'Rubik', 'Noto Sans', 'Open Sans', Calibri, 'Trebuchet MS', sans-serif !default;
+$font-family-sans-serif: 'Exo 2', 'Rubik', 'Nunito', 'Open Sans', 'Muli', 'Noto Sans', Calibri, 'Trebuchet MS', sans-serif !default;
 $font-family: $font-family-serif;
-$font-family-alt: 'Exo 2', $font-family-sans-serif;
+$font-family-alt: $font-family-sans-serif;
 
 $base-color-primary: #fff59d;
 $base-color-primary-dark: #fdd835; //#cbc26d looks too yucky!
@@ -12,8 +12,12 @@ $base-color-secondary: #a5d6a7;
 $base-color-secondary-light: #d7ffd9;
 $base-color-secondary-dark: #75a478;
 
+$text-color-highlight: scale-color($base-color-secondary, $saturation: 100, $lightness: -45);
+$text-hover-color-highlight: rgba($text-color-highlight, .7);
+
 //very light yellow : #fffde7
 //very light green : #e8f5e9
 
-$page-section-alt-color: #f7f7f7;
+// $page-section-alt-color: #f7f7f7;
+$page-section-alt-color: scale-color($base-color-primary-light, $lightness: 70);
 

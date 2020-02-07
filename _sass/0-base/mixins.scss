@@ -12,3 +12,7 @@
   border: greenyellow;
   border-style: solid;
 }
+
+@mixin incl-text-color-highlight {
+  color: $text-color-highlight;
+}

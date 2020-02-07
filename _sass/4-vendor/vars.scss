@@ -11,4 +11,4 @@ https://github.com/twbs/bootstrap/blob/master/scss/_variables.scss
 $enable-gradients: true;
 $enable-shadows: true;
 $light: $base-color-primary-light;
-$navbar-light-active-color: darken($base-color-secondary, 25%);
+$navbar-light-active-color: $text-color-highlight;
